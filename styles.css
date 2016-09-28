@@ -1,0 +1,13 @@
+body {background-color: #aaa; text-align: center; padding-top: 5%;}
+.text {color: white;}
+h1 {font-size: 4em;}
+#container-search {width: 100%; padding: 1em 0 1.5em 0;}
+input {line-height: 2em; font-size: 16px; margin: 0 1em 0 1em;}
+.card {background-color: #222; color: white; padding: 2em; margin-bottom: 1em; text-align: right; display: block; border-radius: 1em;}
+.card img {width: 100px; height: 100px; float: left;}
+a:hover, a:link, a:visited {text-decoration: none;}
+a:hover {background-color: #111;}
+.title {text-align: right;}
+.btn-outline {font-weight: bold; color: black; border-color: black;}
+.btn-outline:hover {color: white; background-color: black;}
+.alert.alert-error{background-color: red; opacity: 0.5; color: white; font-weight: bold; border-radius: 2em; text-align: center;}
