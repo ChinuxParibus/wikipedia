@@ -17,7 +17,7 @@ $(function () {
 					$('#message').hide();
 			});
 		} else {
-			var urlSearch = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=' + search;
+			var urlSearch = 'https://crossorigin.me/https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=' + search;
 			$.request('GET', urlSearch).then(function (text) {
 				var data = $.parseJSON(text);
 				var pages = data.query.pages, postList = [];
